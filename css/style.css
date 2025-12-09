@@ -49,7 +49,7 @@
 	margin-bottom: 20px;
 }
 .lefttop img {
-	box-shadow: 15px 15px 0px 4px #065cc2;
+	box-shadow: 15px 13px 0px -3px #065cc2;
 	border-radius: 50px;
 }
 .countt li h2{
@@ -90,7 +90,6 @@
         position: relative;
       }
 .about2 h2{
-	font-family: cursive;
     font-weight: 600;
     color: #1e66a7;
 }
@@ -201,8 +200,6 @@
 .Contact{background: #e6f8ff;}
 .contact-icon a{
 	font-size: 40px; color: #f1f1f1;}
-.profile h4{}
-.profile p{}
 .contact1{
 	font-family: sans-serif;
     color: #f1f1f1;
@@ -223,7 +220,7 @@
 .custom-input {
     border-radius: 10px;
     padding: 12px;
-    border: 2px solid #e9ecef;
+    border: 1px solid #e9ecef;
 }
 .Footer{background: #065cc2;}
 .Footer1 p{color: #f1f1f1; font-family: sans-serif;}
@@ -234,6 +231,7 @@
 			display: flex;
 			flex-direction: column;
 			gap: 15px;
+			z-index: 999999 !important;
 		}
 .fixed-social a{
 			text-decoration: none;
@@ -246,6 +244,8 @@
 			justify-content: space-between;
 			border-radius: 50%;
 			box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+			position: relative;
+			z-index: 999999 !important;
 			transition: all 0.3s ease;
 		} 
 		.fixed-social a.fa-whatsapp { background: #25d366; }
@@ -266,7 +266,13 @@
 	.boxicon h5 {font-size: 15px;}
 	.skills2 p{font-size: 14px;}
 	.skills2 a{font-size: 10px;}
-}
+	.template-demo p, .profile h4{font-size: 14px;}
+	.profile p{font-size: 12px;}
+	.contact-icon a {font-size: 35px;}
+	.contact1 h2, .contact3-form h2 {font-size: 30px;}
+	.contact1 p{font-size: 15px;}
+	.profole1 h4{font-size: 20px;}
+	.profile1 p, .bttonn button{font-size: 13px;}
 
 @media screen and (max-width: 767px) {
 	.sidebar h5{font-size: 13px;}
@@ -297,8 +303,6 @@
 	.boxicon p{font-size: 14px;}
 	.edu p {font-size: 8px;}
 	.edu h5{font-size: 17px;}
-	.contact-icon a {font-size: 35px;}
-	.contact1 h2, .contact3-form h2 {font-size: 30px;}
-	.contact1 p, .bttonn button{font-size: 13px;}
+	.contact1 p{font-size: 13px;}
 	.Footer1 p{font-size: 11px;}
 }
